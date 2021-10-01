@@ -97,6 +97,7 @@ void draw() {
   ballL = ballX - 15;
   if (ballX > width || ballX < 0) {
     println("Your score was: " +score);
+    score = 0;
     start = false;
     paddle = true;
     redraw();
